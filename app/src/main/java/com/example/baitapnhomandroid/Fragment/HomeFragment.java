@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager2.widget.CompositePageTransformer;
 import androidx.viewpager2.widget.MarginPageTransformer;
 
+import com.example.baitapnhomandroid.Domain.User;
 import com.example.travel_app.Activity.MainActivity;
 import com.example.travel_app.Activity.SeeAllActivity;
 import com.example.travel_app.Adapter.CategoryAdapter;
