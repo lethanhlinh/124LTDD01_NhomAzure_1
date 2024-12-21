@@ -45,4 +45,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation ("com.google.firebase:firebase-database:20.1.0")
     implementation ("androidx.viewpager2:viewpager2:1.0.0")
+    implementation ("com.google.firebase:firebase-storage:21.2.0") // Phiên bản mới nhất
+
 }

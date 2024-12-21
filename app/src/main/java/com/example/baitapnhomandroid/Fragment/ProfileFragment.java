@@ -16,23 +16,11 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.bumptech.glide.Glide;
-import com.example.travel_app.Activity.EditProfileActivity;
-import com.example.travel_app.Activity.HistoryActivity;
-import com.example.travel_app.Activity.MainActivity;
-import com.example.travel_app.Activity.SignInActivity;
-import com.example.travel_app.Activity.XemTVNhomActivity;
-import com.example.travel_app.Chat.ChatActivity;
-import com.example.travel_app.Domain.User;
-import com.example.travel_app.R;
-import com.example.travel_app.databinding.FragmentProfileBinding;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
+
+import com.example.baitapnhomandroid.Activity.MainActivity;
+import com.example.baitapnhomandroid.Domain.User;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
-import com.google.firebase.storage.UploadTask;
 
 import java.util.UUID;
 
